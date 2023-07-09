@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Hanken Grotesk", sans-serif;
+    background-color: #eee;
+}
+
+.wrapper {
+    width: 60%;
+    height: 450px;
+    background-color: white;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+
+.result {
+    background: rgb(120, 87, 255);
+    background: linear-gradient(180deg,
+            rgba(120, 87, 255, 1) 0%,
+            rgba(46, 43, 233, 1) 70%);
+
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.circle {
+    background: rgb(78, 33, 202);
+    background: linear-gradient(180deg, rgba(78, 33, 202, 1) 70%, rgba(36, 33, 202, 1) 100%);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.circle h3 {
+    font-size: 60px;
+    color: white;
+}
+
+.circle p {
+    color: white;
+    font-size: 15px;
+}
+
+.result h2,
+p {
+    color: white;
+}
+
+.result h2 {
+    font-size: 1.5em;
+}
+
+.result p {
+    text-align: center;
+    max-width: 200px;
+}
+
+/* Result End */
+
+.summary {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.summary a {
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    width: 80%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1.2em !important;
+}
+
+.summary a:hover {
+    background: rgb(120, 87, 255);
+    background: linear-gradient(180deg,
+            rgba(120, 87, 255, 1) 0%,
+            rgba(46, 43, 233, 1) 70%);
+}
+
+.status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    flex-direction: column;
+}
+
+.status .status-child {
+    background-color: hsl(221, 100%, 96%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 15px;
+    align-items: center;
+}
+
+.status-child p {
+    color: black;
+    display: flex;
+}
+
+.status-child p span {
+    font-weight: 900;
+    margin-right: 6px;
+}
+
+.status-child p svg {
+    margin-right: 5px;
+}
+
+.range {
+    font-weight: 200;
+}
+
+.summary-logo {
+    text-align: left;
+    align-self: start;
+    margin-left: 40px;
+}
+
+.circle p{
+    font-weight: 300 !important;
+}
